@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Main</title>
+	<link href="../static/css/styleIndex.css" rel="stylesheet">
+</head>
+<body>
+	
+
+	<main>
+
+		<h1>Загрузите 2 файла(docx или odt)</h1>
+
+		<form enctype="multipart/form-data" method="POST" action="{{ url_for('upload') }}">
+			<input type="file" name="file" class="file" multiple>
+			<input type="file" name="file" class="file" multiple>
+			<input type="submit" value="Upload" id="but">
+		</form>
+		
+
+	</main>
+
+
+</body>
+</html>

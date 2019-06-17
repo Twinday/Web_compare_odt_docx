@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(60, 60, 60);
+	margin: 0 auto;
+}
+
+main {
+	background-color: rgb(60, 60, 60);
+	margin: 0 auto
+}
+
+h1 {
+	color: #fff;
+	margin: 20px 20px;
+}
+
+#but {
+	margin: 0 auto;
+	padding: 10px;
+	color: #fff;
+	background-color: rgb(240, 140, 0);
+	border-radius: 5px;
+	border-width: 0;
+	font-size: 24px;
+	margin-left: 20px;
+}
+#but:hover {
+	color: rgb(240, 140, 0);
+	background-color: #000;
+	cursor: pointer;
+}
+
+.file {
+	color: #fff;
+	background-color: #888;
+	padding: 10px;
+	border-width: 0;
+	border-radius: 5px;
+	font-size: 20px;
+	margin: 80px 40px;
+	cursor: pointer;
+}
+.file:hover {
+	background-color: #555;
+}
